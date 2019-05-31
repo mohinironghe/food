@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.row{
+
+	margin:0 auto;
+}
+body{
+	font-family: tahoma;
+}
+.hero{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/piza-3010062_1280.jpg);
+	height: 100vh;
+	width: auto;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1,h2{
+	color: white;
+
+}
+h2{
+      margin-left: 5%;
+      padding-top: 2%;
+}
+.food{
+	margin-left: 5px;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 2px; 
+	margin-left: 40%;
+}
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+
+
+}
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+}
+.main-nav li a:hover{
+	color: red;
+	border-bottom: 2px solid red;
+	transition: all 0.5s ease-in;
+	padding: 10px 0px;
+	background-color: transparent;
+}
+.button{
+	border: 2px solid white;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 10px 15px;
+	border-radius: 40px;
+}
+.btn{
+	margin-top: 40px;
+}
+.btn-half{
+	background-color: red;
+}
+.btn-half:hover{
+	transition: all 0.5s ease-in;
+	text-decoration: none;
+	background-color: transparent;
+	color: white;
+
+}
+.btn-full:hover{
+	background-color: red;
+	transition: all 0.5s ease-in;
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+.copy{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 30px;
+}
+h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: red;
+	display: block;
+	content: "";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.feature h3{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.p1{
+	text-align: justify;
+}
+ i{
+    
+	color: red;
+	margin-left: 40%;
+
+}
+h4{
+	margin-left: 25px;
+}
+.meal-show{
+	list-style: none;
+	width: 100%;
+}
+.meal-show li{
+	display: block;
+	width: 25%;
+	float: left;
+}
+.meal-pic{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+.meal-pic img{
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s;
+
+}
+.meal-pic img:hover{
+	transform: scale(1.05);
+	opacity: 0.5;
+}
+.meal{
+	margin-top: 60px;
+}
